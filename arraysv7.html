@@ -24,7 +24,16 @@
 	  
         document.write("<p> El primer articulo es <strong>");
         document.write(articulos[0] + "</strong></p>");
-        alert(articulos.length);
+        
+        document.write("<p> El ultimo articulo es <strong>");
+        document.write(articulos[articulos.length-1] + "</strong></p>");
+        
+        document.write("<p> agregaremos un elemento al final </p>");
+        articulos.push(prompt("introduce un articulo"));
+        document.write("<p> El ultimo articulo es <strong>");
+        document.write(articulos[articulos.length-1] + "</strong></p>");
+        
+
 		
 		
 		
