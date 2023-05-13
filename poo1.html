@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POO1</title>
 </head>
 <body>
     <input type="button" id="boton1">
+    <input type="button" id="boton2">  <!--crea un boton-->
+    <input tipe="text" id="micuadro">
 
     <script>
         var miboton=document.getElementById("boton1");
-        miboton.style.width="300px";
+        
+        var miboton2=document.getElementById("boton2");
+        
+        var cuadroTexto=document.getElementById("micuadro");
+        
+        miboton.style.width="300px"; //ancho del boton
+        miboton.style.height="300px"; //alto del boton
+       // miboton.style.background="blue"; //color del boton
+        miboton2.style.width="300px"; //ancho del boton
+        miboton2.style.height="300px"; //alto del boton
+        miboton2.focus();
+
+        cuadroTexto.style.background="red"; //color del cuadro
+        cuadroTexto.value="Escriba aqui..."; //
+        cuadroTexto.style.height="200px";
     </script>
 
 </body>
